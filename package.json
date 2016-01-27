@@ -1,7 +1,7 @@
 {
-  "name": "homepage",
+  "name": "responsive-web-design",
   "version": "1.0.0",
-  "description": "homepage project",
+  "description": "responsive-web-design test project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
