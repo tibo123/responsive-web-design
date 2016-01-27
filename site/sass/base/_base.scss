@@ -1,0 +1,33 @@
+@import "compass/css3/box-sizing";
+
+*{
+	@include box-sizing(border-box);
+}
+html, body{
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.1;
+	font-family: 'Open Sans', sans-serif;
+	color: rgba(#000, 0.87);
+	
+    display: block;
+	// background-color: $white;
+}
+header{
+    background-color: rgba($blue,0.3);
+	min-height: 30%;
+}
+footer{
+    background-color: rgba($green,0.3);
+	min-height: 10%;
+}
+section{
+    background-color: rgba($pink,0.3);
+	min-height: 60%;
+}
+
+.cb{ clear: both;}
