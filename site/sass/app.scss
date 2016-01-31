@@ -1,28 +1,25 @@
 @import "compass/utilities/general/clearfix";
 
-/* Variables */
+/*
+ * Global attributs
+ */
 $shadow: rgba(#333333, 0.54);
 $shadow-strong: rgba(#333333, 0.87);
-/* TEXT DESIGN */
+
 $text: rgba(#000, 0.54);
 $text-strong: rgba(#000, 0.87);
 $text-offset: 10px!default;
 
 $font-size-header-title: 22px;
-// $line-height-header-title: 36px;
-
 $font-size-header-quote: 14px;
-// $line-height-header-quote: 16px;
 
 $background-img: 'pepper320.jpg';
-
-/* COLOR THEME */
-$yellow: #FDD835;
+$yellow: #fdd835;
 $pink: #e7356e;
-$blue: #0277BD;
-$blue-darker: #01579B;
+$blue: #0277bd;
+$blue-darker: #01579b;
 $green: #1d9370;
-$purple: #8E24AA;
+$purple: #8e24aa;
 $white: #fafafa;
 
 $profile-size: 64px;
@@ -30,8 +27,10 @@ $header-height: 13%;
 $footer-height: 2%;
 $container-height: (100% - $footer-height - $header-height);
 
-@import "base/base";
-@import "layout/grid";
+// @import "base/base";
+// @import "layout/grid";
+// @import "layout/accordion";
+@import "layout/accordion2";
 //@media 
 //   body {
 //    font: 24px Helvetica;
